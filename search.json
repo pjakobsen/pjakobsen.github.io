@@ -4,7 +4,14 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\nDoes that answer makes sense"
+  },
+  {
+    "objectID": "tennis.html",
+    "href": "tennis.html",
+    "title": "Ottawa Tennis Data",
+    "section": "",
+    "text": "Heat Predictions\nPlaying in the heat is tough, especially as players age. Do we need to adapt, or is there nothing to worry about? The City of Ottawa provides climate prediction data; this article tries to model some of the potential medium term effects.\n\n\nOttawa Data Sets"
   },
   {
     "objectID": "index.html",
