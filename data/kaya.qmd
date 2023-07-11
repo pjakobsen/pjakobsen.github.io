@@ -1,0 +1,66 @@
+---
+title: "kaya"
+---
+
+### The Kaya Identity
+
+The Kaya Identity is an simple model for observing our planet from a highly macroscopic perscpective. [^1]. 
+
+A mathematical identity is an equality relating one mathematicalto another statement in such a way that their values are identical.  Wikepdia defines the identity as:
+
+$$
+{\displaystyle F=P\cdot {\frac {G}{P}}\cdot {\frac {E}{G}}\cdot {\frac {F}{E}}}
+$$
+This identity becomes evident as P, E, G will cancel themselves out, leaving us simple with:
+
+But, it becomes easier to read when the consituent parts are more explicit. Hence the following is identical:
+
+$$
+{\displaystyle CO_2=Population\cdot {\frac {GDP}{Population}}\cdot {\frac {EnergyUse}{GDP}}\cdot {\frac {CO_2}{EnergyUse}}}
+$$
+
+```{mermaid}
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+```
+
+Imagine yourself as an interstellar observer trying to understand a sudden spike in Eearth's during what constitus, planetarily speaking, a microscopic timescale. Assuming that aliens have to report to their boss, their thinking would probably have to appeal to common sense and evolve along these lines:
+
+![Greta](https://i0.wp.com/unifresher.co.uk/wp-content/uploads/2021/03/EX6rv_dWkAIvGaS.jpg){fig-align="left" width=60%}
+
+This is some more text to control the float
+
+{{< video https://www.youtube.com/embed/wo9vZccmqwc >}}
+
+```{mermaid}
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+```
+
+[^1]: This is a re-working of Jean-Marc Jancovinci's excellent article
+
+$$
+CO_2 = P \cdot\frac{CO_2}{E} \cdot\frac{E}{GDP}
+\cdot\frac{GDP}{P}
+\cdot\frac{GDP}{Population} 
+\cdot P
+$$
+
+The first observation is that we live in a delicate balance with a burning ball of fire next to us. The surface of the earth is reflective, and sends the sun's energy back into space.   But with  amount of Carbon in the air prevents 
+
+$$
+ CO_2 = CO_2
+$$
+
+$$
+CO_2 = P\cdot\frac{CO_2}{E}
+$$
+$$
+\text{ CO2 emissions = Carbon content of energy × Energy intensity of the economy × Production per person × Population}
+$$

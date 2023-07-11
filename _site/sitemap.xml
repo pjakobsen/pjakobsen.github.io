@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://pjakobsen.github.io/data/kaya.html</loc>
+    <lastmod>2023-07-11T18:03:03.130Z</lastmod>
+  </url>
+  <url>
     <loc>https://pjakobsen.github.io/about.html</loc>
-    <lastmod>2023-06-28T18:52:06.648Z</lastmod>
+    <lastmod>2023-07-11T18:03:01.766Z</lastmod>
   </url>
   <url>
     <loc>https://pjakobsen.github.io/index.html</loc>
-    <lastmod>2023-06-28T18:52:04.071Z</lastmod>
+    <lastmod>2023-07-11T18:02:57.970Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pjakobsen.github.io/tennis.html</loc>
+    <lastmod>2023-07-11T18:02:51.665Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pjakobsen.github.io/cues.html</loc>
+    <lastmod>2023-07-11T18:02:52.213Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pjakobsen.github.io/vision.html</loc>
+    <lastmod>2023-07-11T18:02:58.998Z</lastmod>
+  </url>
+  <url>
+    <loc>https://pjakobsen.github.io/heat.html</loc>
+    <lastmod>2023-07-11T18:03:02.466Z</lastmod>
   </url>
 </urlset>
