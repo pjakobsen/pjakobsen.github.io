@@ -1,0 +1,46 @@
+---
+title: "Arch Manjaro Tips"
+author: "Peder Jakobsen"
+---
+
+``` bash
+
+
+
+install.packages("stringi")
+
+```
+
+\* installing \*source\* package 'selectr' ...
+
+\*\* package 'selectr' successfully unpacked and MD5 sums checked
+
+\*\* using staged installation
+
+\*\* R
+
+\*\* inst
+
+\*\* byte-compile and prepare package for lazy loading
+
+Error in dyn.load(file, DLLpath = DLLpath, ...) :
+
+unable to load shared object '/home/pederj/R/x86_64-pc-linux-gnu-library/4.3/stringi/libs/stringi.so':
+
+libicui18n.so.72: cannot open shared object file: No such file or directory
+
+Calls: \<Anonymous\> ... namespaceImport -\> loadNamespace -\> library.dynam -\> dyn.load
+
+Execution halted
+
+ERROR: lazy loading failed for package 'selectr'
+
+\* removing '/home/pederj/R/x86_64-pc-linux-gnu-library/4.3/selectr'
+
+ERROR: dependency 'selectr' is not available for package 'rvest'
+
+\* removing '/home/pederj/R/x86_64-pc-linux-gnu-library/4.3/rvest'
+
+ERROR: dependency 'rvest' is not available for package 'tidyverse'
+
+\* removing '/home/pederj/R/x86_64-pc-linux-gnu-library/4.3/tidyverse'
