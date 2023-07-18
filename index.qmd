@@ -2,17 +2,24 @@
 #title: "Finance & Tennis"
 ---
 
-I am a programmer working mostly in R, Python, and Javascript. I write about data and methods that I find interesting and useful.
+I am a programmer working mostly in R, Python, and Javascript. I write about data and models.
 
 "Much Ado about Nothing" is in part about deception and self-deception. Yet, we have a leg up on Shakepere, because we have easy access to data a plenty, especially in finance.
 
+Ayan rand said, there are makers and moochers. 
+
 Possibly the simplest and most useful tool is using R to quickly analyze the claims made about various financial products and services. The financial industry needs to justify its high fees, and thus is systemically wired to make mountains out of molehills, and to see patters that can be sold as "special sauce".
 
-```{r}
+
+```{r,, echo=FALSE}
 # Loads tidyquant, lubridate, xts, quantmod, TTR 
 library(tidyverse)
 library(tidyquant)
 library(plotly)
+```
+
+
+```{r}
 
 
 tq_index_options()
@@ -34,4 +41,9 @@ fig <- plot_ly(stock, type = 'scatter', mode = 'lines')%>%
 options(warn = -1)
 
 fig
+```
+
+More markdown here
+
+```
 ```
