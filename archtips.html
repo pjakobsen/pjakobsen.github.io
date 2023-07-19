@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Peder Jakobsen">
 
-<title>jakobsen.ca - About</title>
+<title>jakobsen.ca - Arch Manjaro Tips</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -108,13 +143,19 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Arch Manjaro Tips</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Peder Jakobsen </p>
+          </div>
+  </div>
     
   
     
@@ -123,6 +164,27 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="ex">install.packages</span><span class="er">(</span><span class="st">"stringi"</span><span class="kw">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>* installing *source* package ‘selectr’ …</p>
+<p>** package ‘selectr’ successfully unpacked and MD5 sums checked</p>
+<p>** using staged installation</p>
+<p>** R</p>
+<p>** inst</p>
+<p>** byte-compile and prepare package for lazy loading</p>
+<p>Error in dyn.load(file, DLLpath = DLLpath, …) :</p>
+<p>unable to load shared object ‘/home/pederj/R/x86_64-pc-linux-gnu-library/4.3/stringi/libs/stringi.so’:</p>
+<p>libicui18n.so.72: cannot open shared object file: No such file or directory</p>
+<p>Calls: &lt;Anonymous&gt; … namespaceImport -&gt; loadNamespace -&gt; library.dynam -&gt; dyn.load</p>
+<p>Execution halted</p>
+<p>ERROR: lazy loading failed for package ‘selectr’</p>
+<p>* removing ‘/home/pederj/R/x86_64-pc-linux-gnu-library/4.3/selectr’</p>
+<p>ERROR: dependency ‘selectr’ is not available for package ‘rvest’</p>
+<p>* removing ‘/home/pederj/R/x86_64-pc-linux-gnu-library/4.3/rvest’</p>
+<p>ERROR: dependency ‘rvest’ is not available for package ‘tidyverse’</p>
+<p>* removing ‘/home/pederj/R/x86_64-pc-linux-gnu-library/4.3/tidyverse’</p>
 
 
 
