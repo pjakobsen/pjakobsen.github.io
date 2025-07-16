@@ -7,25 +7,25 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      #- about.qmd
       - href: tennis.qmd
         text: Tennis
-      - menu:
-           - href: vision.qmd
-             text: "Vision"
-           - href: cues.qmd
-             text: "Cues"
-      - href: heat.qmd
-        text: Heat
-    tools:
-      - icon: twitter
-        href: https://twitter.com
-      - icon: github
-        menu:
-            - text: Source Code
-              url:  https://code.com
-            - text: Report a Bug
-              url:  https://bugs.com
+    #   - menu:
+    #        - href: vision.qmd
+    #          text: "Vision"
+    #        - href: cues.qmd
+    #          text: "Cues"
+    #   - href: heat.qmd
+    #     text: Heat
+    # tools:
+    #   - icon: twitter
+    #     href: https://twitter.com
+    #   - icon: github
+    #     menu:
+    #         - text: Source Code
+    #           url:  https://code.com
+    #         - text: Report a Bug
+    #           url:  https://bugs.com
 format:
   html:
     theme: cosmo

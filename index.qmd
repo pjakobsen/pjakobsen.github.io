@@ -1,49 +1,11 @@
 ---
-#title: "Finance & Tennis"
+title: "An Example Using the Tufte Style"
 ---
 
-I am a programmer working mostly in R, Python, and Javascript. I write about data and models.
+> "The first principle is not to fool yourself -- and you are the easiest person to fool." Richard Feynman
 
-"Much Ado about Nothing" is in part about deception and self-deception. Yet, we have a leg up on Shakepere, because we have easy access to data a plenty, especially in finance.
-
-Ayan rand said, there are makers and moochers. 
-
-Possibly the simplest and most useful tool is using R to quickly analyze the claims made about various financial products and services. The financial industry needs to justify its high fees, and thus is systemically wired to make mountains out of molehills, and to see patters that can be sold as "special sauce".
-
-
-```{r,, echo=FALSE}
-# Loads tidyquant, lubridate, xts, quantmod, TTR 
-library(tidyverse)
-library(tidyquant)
-library(plotly)
-```
-
-
-```{r}
-
-
-tq_index_options()
-
-getSymbols("CARB.TO",
-             from = "2022-01-01",
-             to = "2022-12-31")
-
-stock <- data.frame(CARB.TO$CARB.TO.Adjusted)
+> "If it weren't for my lawyer, I'd still be in prison.  It went a lot faster with two people digging."' 
 
 
 
-stock <- data.frame(stock,rownames(stock))
-colnames(stock) <- append('GOOG','date')
-
-fig <- plot_ly(stock, type = 'scatter', mode = 'lines')%>%
-  add_trace(x = ~date, y = ~GOOG, name = 'GOOG')%>%
-  layout(showlegend = F)
-options(warn = -1)
-
-fig
-```
-
-More markdown here
-
-```
-```
+![Hipsters in Action](assets/tennis.jpg)
