@@ -1,11 +1,7 @@
 ---
-title: "An Example Using the Tufte Style"
+title: "My Home Page"
 ---
 
 > "The first principle is not to fool yourself -- and you are the easiest person to fool." Richard Feynman
 
-> "If it weren't for my lawyer, I'd still be in prison.  It went a lot faster with two people digging."' 
-
-
-
-![Hipsters in Action](assets/tennis.jpg)
+![](assets/tennis.jpg)
